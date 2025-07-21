@@ -1,0 +1,11 @@
+/* declaration*/
+
+fn main() {
+    // a. Implicit type declaration
+    let a = 10; // Rust infers that 'a' is of type i32 because 10 is an integer
+    println!("Implicit type declaration, a: {}", a);
+
+    // b. Explicit type declaration
+    let b: f64 = 3.14; // 'b' is explicitly declared as a floating-point number of type f64
+    println!("Explicit type declaration, b: {}", b);
+}

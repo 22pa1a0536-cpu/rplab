@@ -1,0 +1,18 @@
+
+
+fn main() {
+    // Create a tuple with different types
+    let my_tuple = (42, "Hello, world!", 3.14, true);
+
+    // Accessing elements in the tuple using dot notation
+    let first_element = my_tuple.0; // Access the first element (42)
+    let second_element = my_tuple.1; // Access the second element ("Hello, world!")
+    let third_element = my_tuple.2; // Access the third element (3.14)
+    let fourth_element = my_tuple.3; // Access the fourth element (true)
+
+    // Print the values of the tuple elements
+    println!("First element: {}", first_element);
+    println!("Second element: {}", second_element);
+    println!("Third element: {}", third_element);
+    println!("Fourth element: {}", fourth_element);
+}

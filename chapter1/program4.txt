@@ -1,0 +1,16 @@
+/*shadowing */
+
+fn main() {
+    // Scope 1: Declaring a variable x
+    let x = 5;
+    println!("x in main scope: {}", x); // x is accessible here
+
+    {
+        // Scope 2: Inner scope
+        let x = x * 2; // Shadowing the outer x
+        println!("x in inner scope: {}", x); // This is the shadowed value
+    }
+
+    // Back to Scope 1: The original x is still valid here
+    println!("x after inner scope: {}", x); // Original x is still accessible here
+}
